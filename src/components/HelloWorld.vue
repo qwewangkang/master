@@ -75,8 +75,7 @@ export default {
       const arr = this.paramsOld.map(item => {
         return item.count
       })
-      arr.sort()
-      this.max = Number(arr[arr.length - 1])
+      this.max = Math.max(...arr)
       this.min = 0
     },
     /**
