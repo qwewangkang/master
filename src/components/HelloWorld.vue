@@ -77,7 +77,7 @@ export default {
       })
       arr.sort()
       this.max = Number(arr[arr.length - 1])
-      this.min = Number(arr[0])
+      this.min = 0
     },
     /**
      * Echarts地图
