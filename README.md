@@ -19,6 +19,4 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+地图上名字集中，显示的比较乱，目前没有找到什么好的办法，只能修改json数据中的cp。有好的方法记得告诉我
